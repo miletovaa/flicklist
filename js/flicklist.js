@@ -1,8 +1,6 @@
-
-
 var api = {
 	root: "https://api.themoviedb.org/3",
-	token: "" // TODO put your api key here
+	token: "d5ceba8890faf52cfe29f928aa3add0f" // TODO put your api key here
 }
 
 /**
@@ -21,7 +19,6 @@ function testTheAPI() {
 		}
 	});
 }
-
 
 console.log("The script loaded!");
 testTheAPI();
